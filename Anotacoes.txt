@@ -1,4 +1,6 @@
 # OmniStack_RocketSeat
+O Chromes irá apresentar nossa construção, porém só será apresentado métodos GET. Para que possamos testar os outros métodos HTTP, utilizar o Insomnia.
+Insomnia: Uma API que possui todos os recursos necessários para testar aplicações <insomnia.rest>
 Métodos HTTP:
   GET - Buscar alguma informação do backend
   PUT - Alterar informaççoes do backend
@@ -12,4 +14,4 @@ Métodos HTTP:
     route - parâmetros enviados na rota através de um id, usado para idetificar recursos
       ex.: http://localhost:3333/users/1 
     Request Body - Corpo da requisição, usado para criar ou alterar recursos
-      Corpo de requisição é transferido por JSON
+      Corpo de requisição dentro de uma API é transferido por JSON, nesse caso é necessário que o node express converta JSON em JavaScript       pelo comando app.use(express.json()) incluido antes de qualquer requisição
