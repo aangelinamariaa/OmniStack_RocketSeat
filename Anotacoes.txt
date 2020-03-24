@@ -1,1 +1,15 @@
 # OmniStack_RocketSeat
+Métodos HTTP:
+  GET - Buscar alguma informação do backend
+  PUT - Alterar informaççoes do backend
+  DELETE - Excluir informações do backend
+  POST - Criar informações no backend
+  
+  Tipos de parâmetros (params):
+    query - parâmetros nomeados enviados na rota depois do simbolo "?". Serve para
+      filtros - ex: http://localhost:3333/users<?name=angelina>
+      paginação - ex.: http://localhost:3333/users<?page=1
+    route - parâmetros enviados na rota através de um id, usado para idetificar recursos
+      ex.: http://localhost:3333/users/1 
+    Request Body - Corpo da requisição, usado para criar ou alterar recursos
+      Corpo de requisição é transferido por JSON
